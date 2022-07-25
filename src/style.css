@@ -1,0 +1,42 @@
+
+body{
+    background-color: rgb(166, 234, 243);
+}
+
+
+
+#title1{
+    color: blueviolet;
+    margin-left: 35%;
+}
+
+#title2{
+    margin-left: 44%;
+    color: blueviolet;
+    font-size: large;
+
+}
+
+#title3{
+    color: rgb(179, 73, 91);
+    border: red;
+
+}
+
+#textuser{
+    margin-left: 45%;
+}
+
+
+#title3{
+    margin-left: 42%;
+}
+
+#offset{
+    margin-left: 45%;
+    height: 20px;
+}
+
+.bnt{
+    margin-left: 48%;
+}
