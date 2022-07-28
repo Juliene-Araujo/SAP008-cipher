@@ -1,36 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
 
-    <div id="title1">
+<head>
+  <meta charset="utf-8">
+  <title>Caesar Cipher</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <head id="title1">
       <h1>Já ouviu falar da Cifra de César?</h1>
       <h2>Criptografe sua mensagem antes de enviar.</h2>
-    </div>
-
-    <div class="text">
-      <label id = "title2">Escreva aqui sua mensagem.</label>
-      <br>
-      <textarea type="text" id = "textuser" rows="6"></textarea>
-      <br><br><br>
-      <label id ="title3">Aqui escolha o deslocamento das letras.</label>
-      <br>
-      <input type = "number" rows="6" id="offset">
-
-      <br><br>
-
-    </div>
-
-    <div class="bnt">
-      <input type="button" id="bntcifrar" value="Cifrar">
-      <input type="button" id="bntdecifrar" value="Decifrar">
-
-    </div>
+    </head>
     
-    <script src="index.js" type="module"></script>
-  </body>
+    <form id="text">
+      <label id="title2">Escreva aqui sua mensagem.</label>
+      <textarea type="text" id="textuser" rows="6"></textarea>
+      <label id="title3">Aqui escolha o deslocamento das letras.</label>
+      <input type="number" id="offset">
+    </form>
+
+
+     <button class="button" type="button" id="buttoncifrar" form="text" required>CIFRAR</button>
+     <button class="button" type="button" id="buttondecifrar" form="text">DECIFRAR</button>
+     <button class="button" type="reset" id="buttonlimpar" form="text">LIMPAR</button>
+
+
+  <script src="index.js" type="module"></script>
+</body>
+
 </html>

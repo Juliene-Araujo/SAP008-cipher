@@ -1,23 +1,28 @@
 import cipher from './cipher.js';
 
-//let textUser = (document.getElementById("textuser").value)
-//let offset = (document.getElementById("offset").value)
-let bntcifrar = document.getElementById("bntcifrar")
-let bntdecifrar = document.getElementById("bntdecifrar")
+let bntcifrar = document.getElementById("buttoncifrar")
+let bntdecifrar = document.getElementById("buttondecifrar")
 
 
 
-bntcifrar.addEventListener("click", function(e){
-    let mensagem = (document.getElementById("textuser").value)
-    let offset = (document.getElementById("offset").value)
-    alert(cipher.encode(mensagem, offset))
+bntcifrar.addEventListener("click", function (e) {
+    let string = (document.getElementById("textuser").value)
+    let offset = Number(document.getElementById("offset").value)
+    let resul = cipher.encode(string, offset)
+    alert(resul)
+
+
+
 })
 
 
-bntdecifrar.addEventListener("click", function(e){
-    let textUser= (document.getElementById("textuser").value)
-    let offset= (document.getElementById("offset").value)
-    alert(cipher.decode(mensagem, letras, offset))
+
+bntdecifrar.addEventListener("click", function (e) {
+    let string = (document.getElementById("textuser").value)
+    let offset = Number(document.getElementById("offset").value)
+    let resul2 = cipher.decode(string, offset)
+    alert(resul2)
+
 })
 
 

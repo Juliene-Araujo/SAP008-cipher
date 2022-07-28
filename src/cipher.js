@@ -1,24 +1,29 @@
 const cipher = {
-  
-  encode: function(shiftMenssage, offset){
-  
-    let index
-    let cifrar
-    let letras = [65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]
-    console.log(letras.length)
-    for(index = 0>=65; index <=90; index ++){
-      cifrar= shiftMenssage.charCodeAt(index)
-      console.log(cifrar= shiftMenssage.charCodeAt(index))
-    }
-    
-    return String.fromCharCode ((cifrar))
-    
-  }, 
 
-  //decode: fucntion (mensagem, offset){
-    
-    
-  //}
+  encode: function (string, offset) {
+    let textocifrado = ""
+
+    for (let index = 0; index <= string.length - 1; index++) {
+      const cifrar = ((string.charCodeAt(index) - 65 + offset) % 26 + 65)
+      const letracifrada = String.fromCharCode(cifrar)
+      textocifrado = textocifrado + letracifrada
+    }
+    return textocifrado
+  },
+
+  decode: function (string, offset) {
+    let textodecifrado=""
+
+    for (let index = 0; index <= string.length - 1; index++) {
+      const decifrar = ((string.charCodeAt(index)- 90 - offset) % 26 + 90)
+      const letradecifrada = String.fromCharCode(decifrar)
+      textodecifrado = textodecifrado+letradecifrada 
+    }
+    return textodecifrado
+  }
+
+
+
 
 };
 
