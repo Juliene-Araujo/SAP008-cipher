@@ -2,7 +2,7 @@ const cipher = {
 
   encode: function (offset, mensagem) {
 
-    if(typeof mensagem!= "string" || typeof offset != "number" || mensagem==="" || offset===0){
+    if (typeof mensagem != "string" || typeof offset != "number" || mensagem === "" || offset === 0) {
 
       throw new TypeError("Mensagem ou deslocamento inválido")
 
@@ -21,7 +21,7 @@ const cipher = {
 
   decode: function (offset, mensagem) {
 
-    if(typeof mensagem!= "string" || typeof offset != "number" || mensagem==="" || offset===0){
+    if (typeof mensagem != "string" || typeof offset != "number" || mensagem === "" || offset === 0) {
 
       throw new TypeError("Mensagem ou deslocamento inválido")
 
