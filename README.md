@@ -5,8 +5,9 @@
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Critérios de aceitação mínimos do projeto](#3-Critérios-de-aceitação-mínimos-do-projeto)
-* [4. Arquivos](#4-Arquivos)
-* [5. Ferramentas utilizadas](#5-Ferramentas-utilizadas)
+* [4. Interface do usuário] (UI)](#4-Interface-do-usuário-(UI)
+* [5. Arquivos](#5-Arquivos)
+* [6. Ferramentas utilizadas](#6-Ferramentas-utilizadas)
 
 ***
 
