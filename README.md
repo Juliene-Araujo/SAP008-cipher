@@ -5,12 +5,8 @@
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
 * [3. Critérios de aceitação mínimos do projeto](#3-Critérios-de-aceitação-mínimos-do-projeto)
-* [4. Considerações gerais](#4-considerações-gerais)
-* [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
-* [6. Hacker edition](#6-hacker-edition)
-* [7. Considerações técnicas](#7-considerações-técnicas)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Checklist](#9-checklist)
+* [4. Arquivos](#4-Arquivos)
+* [5. Ferramentas utilizadas](#5-Ferramentas-utilizadas)
 
 ***
 
@@ -59,23 +55,15 @@ Use o alfabeto simples (somente maiúsculas e sem ç):
 
 * A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 
-### Definição do produto
 
-No README.md, escreva como você definiu seu usuário e qual foi o processo para
-definir o produto final a nível de expriência e interface.
+## 4 Interface do usuário (UI)
 
-### Interface do usuário (UI)
+A aplicação foi pensada para todos aqueles que desejam ter sua mensagem e/ou senha mais segura.
+A interface permite ao usuário escrever seu texto, escolher a chave do deslocamento offset e selecionar se o texto deve ser cifrado ou decifrado, 
 
-A interface deve permitir ao usuário:
 
-* Eleger um _offset_ indicando quantas posições de deslocamento de caracteres
-  quer que a cifra utilize.
-* Inserir uma mensagem (texto) para ser cifrada.
-* Ver o resultado da mensagem cifrada.
-* Inserir uma mensagem (texto) para ser decifrada.
-* Ver o resultado da mensagem decifrada.
 
-## 4 Arquivos
+## 5 Arquivos
 
 - index.html = Estrutura da página web
 - style.css = Folha de estilização
@@ -83,7 +71,7 @@ A interface deve permitir ao usuário:
 - index.js = Lógica para tratar dados recebidos pelos usuários
 
 
-## 5. Ferramentas utilizadas
+## 6. Ferramentas utilizadas
 - Html
 - CSS
 - Vanilla JS
