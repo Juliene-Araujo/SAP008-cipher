@@ -16,6 +16,7 @@ const cipher = {
       textocifrado = textocifrado + letracifrada
     }
     return textocifrado
+
   },
 
 
@@ -36,7 +37,6 @@ const cipher = {
     }
     return textodecifrado
   }
-
 
 
 

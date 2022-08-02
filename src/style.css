@@ -1,38 +1,39 @@
-
-body{
+body {
     background-color: rgb(254, 213, 220);
 }
 
 
 
-header{
+header {
     color: rgb(38, 171, 192);
     text-align: center;
-    
+
 }
 
-#text{
+#text {
     text-align-last: center;
     line-height: 40px;
     margin-top: 30px;
-  
-    
-    
+
+
+
 }
 
-#text1, #text2{
+#text1,
+#text2 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: rgb(198, 79, 175);
     font-size: x-large;
     font-style: oblique;
 }
 
-.button:hover{
+.button:hover {
     background-color: rgb(217, 63, 150);
     font-size: large;
+
 }
 
-.button{
+.button {
     line-height: 20px;
     width: 15%;
     margin: 20px;
@@ -41,16 +42,31 @@ header{
     border-radius: 10px;
 }
 
-#textuser{
+#textuser {
     border-radius: 10px;
     border-color: rgb(217, 29, 117);
 }
 
-#offset{
+#offset {
     border-radius: 10px;
     line-height: 30px;
     border-color: rgb(217, 29, 117);
 }
 
+#textdeslocamento{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(198, 79, 175);
+    font-size: medium;
+    font-style: oblique;
 
+}
+
+.explicação{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(38, 171, 192);
+    font-size: x-large;
+    font-style: oblique;
+    text-align-last: center;
+
+}
 

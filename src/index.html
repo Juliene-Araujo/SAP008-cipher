@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Caesar Cipher</title>
+  <title>Cifra de César</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -15,11 +15,26 @@
 
   <main>
 
+
+    <section class="explicação">
+
+      <p>
+        Para Cifrar: As letras da sua mensagem serão substituídas por letras em posições à frente conforme o número da
+        chave escolhida.
+      </p>
+      <p>
+        Para Decifrar: As letras serão substituídas por letras em posições anteriores conforme o número da chave
+        escolhida.
+      </p>
+
+    </section>
+
     <form id="text">
 
       <label id="text1">Escreva aqui sua mensagem.</label><br>
       <textarea type="text" id="textuser" name="textuser" rows="6"></textarea><br>
-      <label id="text2">Aqui escolha o deslocamento das letras.</label><br>
+      <label id="text2">Chave para cifrar ou decifrar.</label><br>
+      <p id="textdeslocamento">Escolha apenas números positivos</p>
       <input type="number" id="offset" name="offset">
 
       <br>
@@ -28,8 +43,10 @@
       <button class="button" type="button" id="buttondecifrar">DECIFRAR</button>
       <button class="button" type="reset" id="buttonlimpar">LIMPAR</button>
 
-
     </form>
+
+
+
 
   </main>
 

@@ -26,8 +26,6 @@ bntcifrar.addEventListener("click", function (e) {
 
 
 
-
-
 bntdecifrar.addEventListener("click", function (e) {
     e.preventDefault
 
