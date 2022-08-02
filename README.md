@@ -59,7 +59,7 @@ Use o alfabeto simples (somente maiúsculas e sem ç):
 
 ## 4 Interface do usuário (UI)
 
-A aplicação foi pensada para todos aqueles que desejam ter sua mensagem e/ou senha mais segura.
+A aplicação foi pensada para todos aqueles que desejam ter sua mensagem e ou senha mais segura.
 A interface permite ao usuário escrever seu texto, escolher a chave do deslocamento offset e selecionar se o texto deve ser cifrado ou decifrado, 
 
 
