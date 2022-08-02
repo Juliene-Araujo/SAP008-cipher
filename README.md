@@ -4,7 +4,7 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Critérios de aceitação mínimos do projeto].(#3-Critérios-de-aceitação-mínimos-do-projeto)
+* [3. Critérios de aceitação mínimos do projeto](#3-Critérios-de-aceitação-mínimos-do-projeto)
 * [4. Considerações gerais](#4-considerações-gerais)
 * [5. Critérios de aceitação mínimos do projeto](#5-critérios-de-aceitação-mínimos-do-projeto)
 * [6. Hacker edition](#6-hacker-edition)
