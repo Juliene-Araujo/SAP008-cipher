@@ -75,7 +75,7 @@ A interface deve permitir ao usuário:
 * Inserir uma mensagem (texto) para ser decifrada.
 * Ver o resultado da mensagem decifrada.
 
-## 3 Arquivos
+## 4 Arquivos
 
 - index.html = Estrutura da página web
 - style.css = Folha de estilização
@@ -83,7 +83,7 @@ A interface deve permitir ao usuário:
 - index.js = Lógica para tratar dados recebidos pelos usuários
 
 
-## 4 3. Ferramentas utilizadas
+## 5. Ferramentas utilizadas
 - Html
 - CSS
 - Vanilla JS
