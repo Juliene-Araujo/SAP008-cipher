@@ -14,8 +14,8 @@ header {
     text-align-last: center;
     line-height: 40px;
     margin-top: 30px;
-
-
+    border-bottom: white;
+    border: 5px;
 
 }
 
@@ -51,6 +51,8 @@ header {
     border-radius: 10px;
     line-height: 30px;
     border-color: rgb(217, 29, 117);
+    border: 5px;
+
 }
 
 #textdeslocamento{
@@ -63,10 +65,21 @@ header {
 
 .explicação{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: rgb(38, 171, 192);
-    font-size: x-large;
+    color: black;
+    font-size: medium;
     font-style: oblique;
-    text-align-last: center;
+   
 
+}
+#desccifrar, #descdecifrar{
+    border:solid;
+    line-height: 40px;
+    border: 3px;
+    border-color: brown;
+    background-color: rgb(58, 159, 196);
+    border-radius: 30px;
+    width: 40%;
+    margin-left: 30%;
+    text-align: center;
 }
 

@@ -12,7 +12,7 @@ const deslocamento = document.getElementById("offset")
 bntcifrar.addEventListener("click", function (e) {
     e.preventDefault()
 
-    const mensagem = texto.value.toUpperCase()
+    const mensagem = texto.value
     const offset = Number(deslocamento.value)
 
     try {
@@ -29,7 +29,7 @@ bntcifrar.addEventListener("click", function (e) {
 bntdecifrar.addEventListener("click", function (e) {
     e.preventDefault
 
-    const mensagem = (texto.value.toUpperCase())
+    const mensagem = texto.value
     const offset = Number(deslocamento.value)
 
     try {
