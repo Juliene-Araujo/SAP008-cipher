@@ -82,27 +82,3 @@ Para visualizar a aplicação [clique aqui](https://juliene-araujo.github.io/SAP
 - Vanilla JS
 
 =======
-
-## 4 Interface do usuário (UI)
-
-A aplicação foi pensada para todos aqueles que desejam ter sua mensagem e ou senha mais segura.
-A interface permite ao usuário escrever seu texto, escolher a chave do deslocamento offset e selecionar se o texto deve ser cifrado ou decifrado, 
-
-
-
-## 5 Arquivos
-
-- index.html = Estrutura da página web
-- style.css = Folha de estilização
-- cipher.js = Lógica aplicação / codificar e decodificar a cifra de césar
-- index.js = Lógica para tratar dados recebidos pelos usuários
-
-Para visualizar a aplicação [clique aqui]()
-
-
-## 6. Ferramentas utilizadas
-- Html
-- CSS
-- Vanilla JS
->>>>>>> 1cd2f577c4d2ba95db697482b18690a291cd9f27
-
