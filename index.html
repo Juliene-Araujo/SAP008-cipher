@@ -18,11 +18,11 @@
 
     <section class="explicação">
 
-      <p>
+      <p id="desccifrar">
         Para Cifrar: As letras da sua mensagem serão substituídas por letras em posições à frente conforme o número da
         chave escolhida.
       </p>
-      <p>
+      <p id="descdecifrar">
         Para Decifrar: As letras serão substituídas por letras em posições anteriores conforme o número da chave
         escolhida.
       </p>
@@ -33,11 +33,10 @@
 
       <label id="text1">Escreva aqui sua mensagem.</label><br>
       <textarea type="text" id="textuser" name="textuser" rows="6"></textarea><br>
-      <label id="text2">Chave para cifrar ou decifrar.</label><br>
-      <p id="textdeslocamento">Escolha apenas números positivos</p>
+      <label id="text2">Chave </label>
       <input type="number" id="offset" name="offset">
+      <p id="textdeslocamento">Escolha apenas números positivos</p>
 
-      <br>
 
       <button class="button" type="button" id="buttoncifrar">CIFRAR</button>
       <button class="button" type="button" id="buttondecifrar">DECIFRAR</button>
